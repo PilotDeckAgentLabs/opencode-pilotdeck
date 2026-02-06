@@ -1,0 +1,48 @@
+{
+  "name": "opencode-pilotdeck",
+  "version": "0.1.0",
+  "description": "OpenCode plugin for PilotDeck AgentOps × ProjectOps integration",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean",
+    "dev": "tsup src/index.ts --format esm --dts --watch",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src --ext .ts",
+    "test": "echo \"Tests not yet implemented\" && exit 0"
+  },
+  "keywords": [
+    "opencode",
+    "plugin",
+    "pilotdeck",
+    "agentops",
+    "projectops",
+    "ai",
+    "coding-assistant"
+  ],
+  "author": "PilotDeckAgentLabs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PilotDeckAgentLabs/opencode-pilotdeck.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PilotDeckAgentLabs/opencode-pilotdeck/issues"
+  },
+  "homepage": "https://github.com/PilotDeckAgentLabs/opencode-pilotdeck#readme",
+  "dependencies": {
+    "@opencode-ai/plugin": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.0",
+    "tsup": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
