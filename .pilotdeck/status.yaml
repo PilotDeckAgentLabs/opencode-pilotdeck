@@ -1,0 +1,22 @@
+schema_version: 1
+
+project:
+  key: "pilotdeck"
+  name: "PilotDeck"
+  repo: "local-repo"
+  owner: "maintainer"
+
+pilotdeck:
+  name: "PilotDeck"
+  base_url: "http://182.92.109.59:8689/api"
+  project_id: "proj-46e1c1d8"
+  agent_id: "opencode/sisyphus"
+  agent_token_env: "PM_AGENT_TOKEN"
+
+status:
+  lifecycle: "in-progress"
+  priority: "medium"
+  progress: 72
+  category: "platform"
+  tags: ["pilotdeck", "agent", "project-management"]
+
